@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         create: (ctx) => TextToolBloc(ctx.read<GeminiRepository>()),
         child: MaterialApp(
           title: 'Smart Text Tool',
+          debugShowCheckedModeBanner: false,
           theme: ThemeData(
             colorSchemeSeed: Colors.deepPurple,
             useMaterial3: true,

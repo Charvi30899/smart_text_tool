@@ -1,17 +1,36 @@
-# smart_text_tool
+# Smart Text Tool 🤖
 
-A new Flutter project.
+An AI-powered Flutter app that processes text using Google Gemini API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Summarize long text
+- Improve writing quality
+- Translate to Hindi
+- Fix grammar
+- Make text formal or casual
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter** — UI framework
+- **BLoC** — state management
+- **Gemini API** — AI processing
+- **Clean Architecture** — UI → BLoC → Repository → API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+
+1. Clone the repo
+2. Get a free Gemini API key from [Google AI Studio](https://aistudio.google.com)
+3. Create `.env` file in root:
+GEMINI_API_KEY=your_key_here
+4. Run `flutter pub get`
+5. Run `flutter run`
+
+## Screenshots
+
+
+## Architecture
+- `lib/core/` — constants, enums
+- `lib/data/` — Gemini repository
+- `lib/bloc/` — BLoC events/states
+- `lib/ui/` — screens and widgets
