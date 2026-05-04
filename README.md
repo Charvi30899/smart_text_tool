@@ -27,6 +27,7 @@ GEMINI_API_KEY=your_key_here
 5. Run `flutter run`
 
 ## Screenshots
+<img width="1179" height="2556" alt="Simulator Screenshot - 16 - 2026-05-04 at 23 47 45" src="https://github.com/user-attachments/assets/e16f127a-c490-41be-a262-305c16205501" />
 
 
 ## Architecture
